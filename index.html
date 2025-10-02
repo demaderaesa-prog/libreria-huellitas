@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Librería Huellitas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="header">
+        <!-- Logo -->
+        <img class="logo" src="images/logo.png" alt="Logo">
+        <div style="flex:1; text-align:center;">
+          <div class="title">🐾 Librería Huellitas 🐾</div>
+          <div class="slogan">Papelería, útiles escolares y mucho más</div>
+        </div>
+      </div>
+
+      <!-- Hero image -->
+      <img class="hero" src="images/hero.png" alt="Libros y papelería">
+
+      <div class="links">
+        <a class="btn" href="https://wa.me/50374247499?text=Buen%20día%2C%20quisiera%20saber%20más%20sobre%20sus%20productos" target="_blank">
+          <img class="icon" src="https://img.icons8.com/fluency/48/000000/whatsapp.png" alt="WhatsApp">
+          <div class="label">
+            <div>Chatea con nosotros (WhatsApp)</div>
+            <div class="hint">Responde rápido — Atención personalizada</div>
+          </div>
+        </a>
+
+        <a class="btn" href="https://waze.com/ul/hd42tbh7u9" target="_blank">
+          <img class="icon" src="https://img.icons8.com/fluency/48/000000/marker.png" alt="map">
+          <div class="label">
+            <div>Visítanos</div>
+            <div class="hint">Clic para ver la ubicación en Google Maps</div>
+          </div>
+        </a>
+
+        <a class="btn" href="#" target="_blank">
+          <img class="icon" src="https://img.icons8.com/fluency/48/000000/domain.png" alt="site">
+          <div class="label">
+            <div>Visita nuestra tienda online</div>
+            <div class="hint">Explora productos y compra en línea</div>
+          </div>
+        </a>
+
+        <a class="btn" href="#" target="_blank">
+          <img class="icon" src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="ig">
+          <div class="label">
+            <div>Síguenos en Instagram</div>
+            <div class="hint">Promos y novedades</div>
+          </div>
+        </a>
+
+        <a class="btn" href="#" target="_blank">
+          <img class="icon" src="https://img.icons8.com/fluency/48/000000/facebook-new.png" alt="fb">
+          <div class="label">
+            <div>Facebook</div>
+            <div class="hint">Eventos y comunidad</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="footer">
+        <div>© <span id="year"></span> Librería Huellitas</div>
+        <div>www.tulibreria.com</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
